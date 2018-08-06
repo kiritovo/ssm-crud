@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">   <!--从mybatis官网的 getting started 获得  -->
+  
+  <configuration>
+    <settings>
+       <setting name="mapUnderscoreToCamelCase" value="true"/> <!-- 这个类从configuration xml  settings  mapUnderscoreToCamelCase  驼峰命名规则   -->
+    </settings>
+    <typeAliases >
+     <package  name="com.ice.bean" />
+    </typeAliases>
+  </configuration>
